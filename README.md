@@ -22,7 +22,7 @@ mkdir "wifi_dumps" 2>nul
 netsh wlan export profile key=clear folder="wifi_dumps" >nul
 exit
 ```
-Features
+## Features
 
     ✅ Exports all saved WiFi profiles to XML files
 
@@ -32,41 +32,41 @@ Features
 
     ✅ Creates organized output folder
 
-Requirements
+## Requirements
 
-    Windows 7/8/10/11
+   ✅ Windows 7/8/10/11
 
-    Administrator privileges
+   ✅ Administrator privileges
 
-    Previously connected WiFi networks
+   ✅ Previously connected WiFi networks
 
-# Usage
+## Usage
 
-    Run as Administrator
+   ✅ Run as Administrator
 
-    Script creates wifi_dumps folder in the same directory
+   ✅ Script creates wifi_dumps folder in the same directory
 
-    Find exported profiles as Wi-Fi-*.xml files
+   ✅ Find exported profiles as Wi-Fi-*.xml files
 
-Detection & Defense
+# Detection & Defense
 
-How defenders can detect this:
+## How defenders can detect this:
 
-    Monitor for netsh wlan export command execution
+   ✅ Monitor for netsh wlan export command execution
 
-    Look for rapid creation of XML files in unusual locations
+   ✅ Look for rapid creation of XML files in unusual locations
 
-    Windows Event ID 4688 (Process Creation)
+   ✅ Windows Event ID 4688 (Process Creation)
 
-Prevention:
+## Prevention:
 
-    Remove stored WiFi profiles when not needed
+   ✅ Remove stored WiFi profiles when not needed
 
-    Use netsh wlan delete profile name="*"
+   ✅ Use netsh wlan delete profile name="*"
 
-    Limit admin privileges
+   ✅ Limit admin privileges
 
-Related Tools
+## Related Tools
 
     LaZagne - Multi-platform credential recovery
 
