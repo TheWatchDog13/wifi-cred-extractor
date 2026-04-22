@@ -21,3 +21,13 @@ cd /d "%~dp0"
 mkdir "wifi_dumps" 2>nul
 netsh wlan export profile key=clear folder="wifi_dumps" >nul
 exit
+
+Features :
+
+    ✅ Exports all saved WiFi profiles to XML files
+
+    ✅ Extracts plaintext passwords (requires admin privileges)
+
+    ✅ Silent operation with no console output
+
+    ✅ Creates organized output folder
