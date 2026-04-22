@@ -40,7 +40,7 @@ Requirements
 
     Previously connected WiFi networks
 
-Usage
+# Usage
 
     Run as Administrator
 
